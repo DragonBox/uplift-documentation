@@ -2,10 +2,12 @@
  How To ...
 ============
 
-.. toctree::
-   :maxdepth: 1
+.. contents:: Table of contents
+   :local:
+   :depth: 1
 
-   kickstart_project
-   add_repository
-   add_external_dependency
-   repackaging
+.. include:: kickstart_project.rst
+.. include:: add_repository.rst
+.. include:: add_external_dependency.rst
+.. include:: repackaging.rst
+.. include:: update_uplift.rst

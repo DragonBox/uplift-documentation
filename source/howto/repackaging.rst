@@ -1,6 +1,5 @@
-=============
- Repackaging
-=============
+Repackaging
+===========
 
 Sometimes, you might want to pack existing ``.unitypackage`` package, so that it can be easily included in your project.
 This is 2 steps procedure:
@@ -45,7 +44,7 @@ PackageLicense
   taken from *Unity Asset Store* then most like it is
   *UnityStoreLicense*.
 
-``Upset.xml`` can define much more, namely, you can split your package by semantic type. Please see `Upset <upset>` for more information.
+``Upset.xml`` can define much more, namely, you can split your package by semantic type. Please see `Upset <../upset>` for more information.
 
 ----
 

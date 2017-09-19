@@ -1,5 +1,4 @@
-=================================
- Add External Dependency
+Add External Dependency
 =================================
 
 **Note:** This guide assumes that Dependency you want to add to your Project had already been repackaged into Uplift package. If that's not true, you might have to repackage code yourself, see :doc:`repackaging`.
