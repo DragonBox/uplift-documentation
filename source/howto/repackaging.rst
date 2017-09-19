@@ -1,0 +1,66 @@
+=============
+ Repackaging
+=============
+
+Sometimes, you might want to pack existing ``.unitypackage`` package, so that it can be easily included in your project.
+This is 2 steps procedure:
+
+1. Create ``Upset.xml`` file
+2. Put **properly packaged** UPackage in the Repository.
+
+As you noticed, the key phrase here is **properly packaged**, as every single :doc:`Repository <repository/types>` has their own type.
+For the sake of simplicty we're going to assume `../repository/file_repository`.
+
+-------
+
+Creating ``Upset.xml`` is easy. As a minimal example:
+
+.. code-block:: xml
+
+   <?xml version="1.0" encoding="utf-8"?>
+   <Upset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+     <UnityVersion>2017.1f3</UnityVersion>
+     <PackageName>CoolPackage</PackageName>
+     <PackageVersion>2.3.5</PackageVersion>
+     <PackageLicense>MIT</PackageLicense>
+   </Upset>
+
+
+UnityVersion
+  This is minimal version of Unity this package is going to work on.
+  In case of doubt just use the version you're repacking for.
+
+PackageName
+  Name of your choosing. If you're repackaging it's best to use the
+  same name as original package.
+
+PackageVersion
+  Version of the package you're repackaging. We're
+  tracking things inside using it, so it's for the best to always keep
+  it incremental.
+
+PackageLicense
+  This is very important, as it allows you to see the
+  licenses used in taken packages. If your ``.unitypackage`` had been
+  taken from *Unity Asset Store* then most like it is
+  *UnityStoreLicense*.
+
+``Upset.xml`` can define much more, namely, you can split your package by semantic type. Please see `Upset <upset>` for more information.
+
+----
+
+For the `../repository/file_repository` we expect the file structure to be such as
+that, for every single ``.unitypackage`` we have .xml file with the
+same basename, for example:
+
+::
+
+    SomeCool.unitypackage
+    SomeCool.xml
+    VeryImportant~1.0.unitypackage
+    VeryImportant~1.0.xml
+    ...
+
+So once you have your ``.unitypackage`` package and ``Upset.xml`` file
+ready, just put them in your `../repository/file_repository` (which, actually is only
+a directory on your filesystem) and you're good to go.
