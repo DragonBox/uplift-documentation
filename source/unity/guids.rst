@@ -25,6 +25,13 @@ Unity creates a GUID at asset import time, when the asset you are importing does
 
 This means that if you forget to commit a meta file to your project, your colleague's Unity will generate a different meta, and thus a different GUID. This will confuse Uplift as Uplift tries to track those files for you (in the `upbring<../files/upbring>` file).
 
+How Unity manages them?
+-----------------------
+
+If you move an asset file through Unity, unity will move its meta with it. If you move an asset file using the standard file system operation, the asset and its meta will be disconnected. Unity will generate a new meta (with default setting, and new GUID), and the old meta will be deleted.
+
+If you duplicate an asset using Unity, the copy will get a different GUID. If you do it using the file system, you might end up with a GUID conflict, i.e. 2 metas containing the same GUIDs. Unity will by default place a warning.
+
 Impact on Uplift
 ----------------
 

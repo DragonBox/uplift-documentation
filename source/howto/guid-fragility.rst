@@ -6,7 +6,7 @@ For various reasons, you might end up having GUID issues in your project while u
 Why GUIDs are fragile?
 ----------------------
 
-Because if you don't track them, or lose them, Unity will most probably generate a different ID for the same dependency.
+If you don't track them, or lose them, Unity will most probably generate a different ID for the same dependency.
 
 How to detect and correct issues?
 ---------------------------------
