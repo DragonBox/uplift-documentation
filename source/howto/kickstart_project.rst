@@ -9,13 +9,12 @@ Adding *Uplift* to a new project is simple.
 
 2. Once you've done this step you can `add your first repository <add_repository>` and start adding packages.
 
-3. Finally, from Unity 3D select :menuselection:`Uplift --> Install Dependencies` to see all fall in place.
+3. Finally, from Unity select :menuselection:`Uplift --> Refresh Upfile` then :menuselection:`Uplift --> Install Dependencies` to see all fall in place.
 
 
 You might want to see also:
 
-- `../recommendations/working_with_modules` guide, on how to work with modularized project
-  efficiently
+- `../recommendations/working_with_modules` guide, on how to work efficiently with modularized project
 - `caveats-dllcode`
 
 .. [#upfile_location] ``Upfile.xml`` is outside of ``Assets/`` directory, which means it is **not
