@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Uplift'
-copyright = u'2017, Przemysław Kamiński'
+copyright = u'2017, WeWantToKnow AS'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -199,7 +199,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   ('index', 'Uplift.tex', u'Uplift Documentation',
-   u'Przemysław Kamiński', 'manual'),
+   u'WeWantToKnow AS', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -229,7 +229,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'uplift', u'Uplift Documentation',
-     [u'Przemysław Kamiński'], 1)
+     [u'WeWantToKnow AS'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -243,7 +243,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'Uplift', u'Uplift Documentation',
-   u'Przemysław Kamiński', 'Uplift', 'One line description of project.',
+   u'WeWantToKnow AS', 'Uplift', 'One line description of project.',
    'Miscellaneous'),
 ]
 

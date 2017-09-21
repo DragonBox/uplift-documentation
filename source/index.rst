@@ -15,6 +15,7 @@ Contents:
    faq
    files/index
    other/caveats
+   copyright
 
 
 
