@@ -44,7 +44,7 @@ PackageLicense
   taken from *Unity Asset Store* then most like it is
   *UnityStoreLicense*.
 
-``Upset.xml`` can define much more, namely, you can split your package by semantic type. Please see `Upset <../upset>` for more information.
+``Upset.xml`` can define much more, namely, you can split your package by semantic type. Please see `Upset <../files/upset>` for more information.
 
 ----
 

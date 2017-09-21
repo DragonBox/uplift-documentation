@@ -1,7 +1,7 @@
 Kickstart new project
 =====================
 
-Adding *Uplift* to a new project is simple.
+You want to use Uplift's power to add dependencies to your project? Adding *Uplift* to a new project is simple!
 
 1. Add either *source* or *compiled DLL* in the ``Assets/``
    directory in your project.  Once this happened, *Uplift* is going to generate ``Upfile.xml`` for you
