@@ -8,8 +8,7 @@ Add Repository To Your Project
 
 2. Add repository inside ``<Repositories></Repositories>`` tags.
 
-   There are multiple Repositories Types available, refer to `Supported
-   Repositories Types <../repository/supported_repositories>`  which parameters are
+   There are multiple Repositories Types available, refer to `../repository/supported_repositories`  which parameters are
    important for each and what the prerequisites are.
 
    Example ``Upfile.xml`` with single *FileRepository* should look
