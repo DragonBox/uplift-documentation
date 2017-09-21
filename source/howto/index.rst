@@ -8,6 +8,7 @@
 
 .. include:: uplift_overview.rst
 .. include:: paradigm_shift.rst
+.. include:: uplift_roles.rst
 .. include:: prepare_project_for_uplift.rst
 .. include:: kickstart_project.rst
 .. include:: add_repository.rst
