@@ -5,12 +5,12 @@ Uplift is a dependency manager for Unity. It allows you to shift from importing 
 
 .. image:: ../assets/uplift_dependencies.png
    :scale: 30 %
-   :alt: alternate text
+   :alt: declarative dependencies in uplift
    :align: center
 
 When using Uplift, you will be having 2 main roles:
 
-* a *packager* role, where you take external or internal unity packages and place them into Uplift repositories. These packages become them usable through Uplift.
+* a *packager* role, where you take external or internal unity packages and place them into Uplift repositories. These packages become then usable through Uplift.
 
 * a *user* role, where you use Uplift to install those packages into your project.
 
