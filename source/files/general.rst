@@ -4,7 +4,7 @@ General Information About Files
 .. _files-general:
 
 Paths In Uplift Are Cross-Platform
-===========================================
+----------------------------------
 
 Uplift stores paths in Unix format for cross-platformability reasons. 
 
