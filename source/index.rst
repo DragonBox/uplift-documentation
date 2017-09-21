@@ -14,7 +14,6 @@ Contents:
    howto/index
    faq
    other/caveats
-   other/prompts
 
 
 
