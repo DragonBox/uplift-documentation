@@ -1,5 +1,5 @@
-Your hats
-=========
+Your Roles
+==========
 
 When using Uplift, you will be having 2 main roles:
 
