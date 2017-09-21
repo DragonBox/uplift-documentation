@@ -1,7 +1,7 @@
 Troubleshooting
 ===============
 
-If something is wrong
+If something is wrong:
 
 1. Restart Unity
 
@@ -11,7 +11,7 @@ If something is wrong
 2. Check if you're using latest *Uplift*
 
    We improve and squash bugs with every day. Maybe problem you had encountered is already solved?
-   (See `Update Uplift` if you need help with updating)
+   (See `howto-update-uplift` if you need help with updating)
 
 3. Look at Unity console
 

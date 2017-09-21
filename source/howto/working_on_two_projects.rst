@@ -1,5 +1,8 @@
- Working on Two Projects
-=========================
+Working on Two Projects
+=======================
+
+.. TODO: Think about caveats of using links
+   There might be some problems with using links, for example when committing them to Git.
 
 When working with *Uplift*, one common scenario would be working with both *Module* and *Project* at
 same time, as it's much easier to see the result without separation.
@@ -18,6 +21,3 @@ If you don't, for whatever reason, want to link directories we recommend
 - Run 2 instances of Unity - one on Project and one on Module (See: `faq-unity-instances`)
 - Copy files manually between Module and Project (by any means you want: copy, git, Makefile, or any
   tool you enjoy using)
-
-.. TODO: Think about caveats of using links
-   There might be some problems with using links, for example when committing them to Git.

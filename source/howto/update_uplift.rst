@@ -1,3 +1,5 @@
+.. _howto-update-uplift:
+
 Update Uplift
 =============
 
