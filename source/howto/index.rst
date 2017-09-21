@@ -6,6 +6,7 @@
    :local:
    :depth: 1
 
+.. include:: uplift_overview.rst
 .. include:: kickstart_project.rst
 .. include:: add_repository.rst
 .. include:: add_external_dependency.rst
