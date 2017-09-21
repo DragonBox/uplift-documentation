@@ -14,3 +14,6 @@ Add External Dependency
       </Dependencies>
 
 4. In Unity select :menuselection:`Uplift --> Install Dependencies`
+
+
+**Requirements:** dependencies need to contain meta files. When you install a dependency through Uplift, Uplift will make use of the asset GUIDs created by Unity. Those GUIDs are found in the .meta files. It is thus **critical** that all the assets found in your dependencies come with their meta files. See `prepare_project_for_uplift` to make the meta visibles and `../unity/guids` for more information about unity GUIDs. If Uplift doesn't find the asset's meta, it won't be able to track the asset and will stop at the dependency import.
