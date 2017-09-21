@@ -13,6 +13,7 @@ Contents:
 
    howto/index
    faq
+   files/index
    other/caveats
 
 
