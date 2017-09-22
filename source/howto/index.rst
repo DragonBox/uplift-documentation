@@ -17,3 +17,4 @@
 .. include:: troubleshoot.rst
 .. include:: dealing_with_multiple_versions.rst
 .. include:: guid-fragility.rst
+.. include:: version_control_with_uplift.rst
