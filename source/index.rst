@@ -11,6 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   uplift/index
    howto/index
    faq
    files/index
