@@ -7,7 +7,7 @@ There are currently 2 ways to use version control with Uplift:
 
 * **complete**: you version everything Uplift do
 
-.. code-block::
+.. code-block::txt
 
     Upfile.xml
     UPackages/Upbring.xml
@@ -25,7 +25,7 @@ Drawbacks:
 
 * **minimalist**: you only version the Upfile configuration.
 
-.. code-block::
+.. code-block::txt
 
     Upfile.xml
 
