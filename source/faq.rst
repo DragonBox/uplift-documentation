@@ -21,7 +21,7 @@ the *HOME* environment variable).
 Why can't Uplift use out of box unity packages?
 ===============================================
 
-Standard unitypackages need to be repackaged together with an *Upset* file in order for Uplift to
+Standard unitypackages need to be completed with an *Upset* file in order for Uplift to
 work with them. Uplift needs extra information such as name, version, license, dependencies, license
 to do its work. See `../files/upset` for more information about the Upset file.
 

@@ -15,6 +15,9 @@ Without package manager, assets are often shared in source format and imported i
 
 But the fact that these quick operations exist go again the idea of clean module separations. It also prevents you from fixing the issues in a single place, inside your module, where these change belong.
 
+A Paradigm Shift
+----------------
+
 When taking over the management of your dependencies, *Uplift requires a little paradigm shift*.
 
 Here's a rule that you should try to follow to make your life easier:
@@ -29,4 +32,4 @@ If you want to perform the aforementionned quick operations that Unity allows, U
 
 Uplift is there to lift you and your Unity Packages up. Learn how to use it. Learn to follow its flow.
 
-If you understand that, you are now ready to try uplift on a project.
+If you understand that, you are now ready to learn more about uplift and try uplift on a project.

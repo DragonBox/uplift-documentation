@@ -11,7 +11,7 @@
 .. include:: add_repository.rst
 .. include:: add_external_dependency.rst
 .. include:: add_internal_dependency.rst
-.. include:: repackaging.rst
+.. include:: uplifting_packages.rst
 .. include:: update_uplift.rst
 .. include:: working_on_two_projects.rst
 .. include:: troubleshoot.rst

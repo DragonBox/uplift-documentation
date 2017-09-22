@@ -1,10 +1,13 @@
-Repackaging
-===========
+Uplifting packages
+==================
+
+I.e. preparing Uplift packages.
 
 Sometimes, you might want to pack existing ``.unitypackage`` package, so that it can be easily included in your project.
+
 This is 2 steps procedure:
 
-1. Create ``Upset.xml`` file
+1. Create an ``Upset.xml`` file
 2. Put **properly packaged** UPackage in the Repository.
 
 As you noticed, the key phrase here is **properly packaged**, as every single :doc:`Repository <repository/types>` has their own type.
@@ -27,16 +30,13 @@ Creating ``Upset.xml`` is easy. As a minimal example:
 
 UnityVersion
   This is minimal version of Unity this package is going to work on.
-  In case of doubt just use the version you're repacking for.
+  In case of doubt just use the version you're preparing for.
 
 PackageName
-  Name of your choosing. If you're repackaging it's best to use the
-  same name as original package.
+  Name of your choosing. If you're preparing an external package it's best to use the same name as original package.
 
 PackageVersion
-  Version of the package you're repackaging. We're
-  tracking things inside using it, so it's for the best to always keep
-  it incremental.
+  Version of the package. If you're preparing an external package it's best to use the same version as original package. Uplift uses version numbers to decide for upgrades, so it's best to increment them when necessary.
 
 PackageLicense
   This is very important, as it allows you to see the

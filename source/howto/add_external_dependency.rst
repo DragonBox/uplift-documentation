@@ -3,7 +3,7 @@
 Add External Dependency
 =======================
 
-**Note:** This guide assumes that Dependency you want to add to your Project had already been repackaged into Uplift package. If that's not true, you might have to repackage code yourself, see `repackaging`.
+**Note:** This guide assumes that Dependency you want to add to your Project had already been prepared as an Uplift package. If that's not true, you might have to uplift it yourself, see `uplifting_packages`.
 
 1. (Optional) Add repository at which package resides. See: `add_repository`
 2. `Open Upfile.xml <faq-upfile>`

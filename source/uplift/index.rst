@@ -8,4 +8,4 @@
 
 .. include:: uplift_overview.rst
 .. include:: paradigm_shift.rst
-.. include:: uplift_roles.rst
+.. include:: how_uplift_works.rst
