@@ -16,5 +16,6 @@
 .. include:: working_on_two_projects.rst
 .. include:: troubleshoot.rst
 .. include:: dealing_with_multiple_versions.rst
+.. include:: package_versioning.rst
 .. include:: guid-fragility.rst
 .. include:: version_control_with_uplift.rst
