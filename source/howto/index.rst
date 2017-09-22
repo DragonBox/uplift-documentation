@@ -13,6 +13,7 @@
 .. include:: kickstart_project.rst
 .. include:: add_repository.rst
 .. include:: add_external_dependency.rst
+.. include:: add_internal_dependency.rst
 .. include:: repackaging.rst
 .. include:: update_uplift.rst
 .. include:: working_on_two_projects.rst
