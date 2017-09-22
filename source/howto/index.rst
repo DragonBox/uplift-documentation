@@ -8,6 +8,7 @@
 
 .. include:: prepare_project_for_uplift.rst
 .. include:: kickstart_project.rst
+.. include:: use_uplift_features.rst
 .. include:: add_repository.rst
 .. include:: add_external_dependency.rst
 .. include:: add_internal_dependency.rst
