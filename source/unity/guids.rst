@@ -30,7 +30,9 @@ How Unity manages them?
 
 If you move an asset file through Unity, unity will move its meta with it. If you move an asset file using the standard file system operation, the asset and its meta will be disconnected. Unity will generate a new meta (with default setting, and new GUID), and the old meta will be deleted.
 
-If you duplicate an asset using Unity, the copy will get a different GUID. If you do it using the file system, you might end up with a GUID conflict, i.e. 2 metas containing the same GUIDs. Unity will by default place a warning.
+.. _guid_conflicts:
+
+If you duplicate an asset using Unity, the copy will get a different GUID. If you do it using the file system, you might end up with a **GUID conflict**, i.e. 2 metas containing the same GUIDs. Unity will by default log a warning.
 
 Impact on Uplift
 ----------------
