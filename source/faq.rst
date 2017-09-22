@@ -52,6 +52,18 @@ Command, from ``cmd.exe`` to create it is ``mklink /D SOURCE TARGET``.
 In case, when admin access is not possible or desired, one can try to use Junction feature instead with command
 ``mklink /J SOURCE TARGET``.
 
+.. _faq-folder-meta-issue:
+
+Why are the meta files for the folders different than the original package?
+===========================================================================
+
+If you create your own package, you may realize that the meta files for the package folders are different after being imported with Uplift.
+This behavior is originating from Unity itself! If you try importing a ``.unitypackage`` manually you will notice similar differences.
+
+**Should I worry about that?**
+
+Fortunately you shouldn't: the meta files for folders are currently mostly irrelevant and them being modified will have a minimal impact on your project.
+If they become relevant at some point, Unity will probably make sure that this behavior is modified and you will not have an issue in that case!
 
 .. [#u3d] ``u3d`` is a tool that we use that helps with: maintaining multiple unity version,
           automate installation and runs the proper Unity instance for your project
