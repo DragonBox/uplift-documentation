@@ -5,7 +5,9 @@ I.e. preparing Uplift packages.
 
 Sometimes, you might want to pack existing ``.unitypackage`` package, so that it can be easily included in your project.
 
-This is 2 steps procedure:
+**Note**: Uplift only currently supports packages packed with Unity 5 or later.
+
+Preparing an Uplift package is a 2 steps procedure:
 
 1. Create an ``Upset.xml`` file
 2. Put **properly packaged** UPackage in the Repository.
