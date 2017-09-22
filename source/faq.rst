@@ -34,6 +34,10 @@ We recommend using command line ``u3d``, which is awesome [#u3d]_. You can also 
 by running Unity once again, and then select different project to run. For this to work, however,
 you need to have :menuselection:`Edit --> Preferences --> General --> Load previous project on start up` **unchecked**
 
+Why can't I reuse code that Uplift Installed?
+=============================================
+
+See `howto/guid-fragility`
 
 .. _faq-filesystem-linking:
 

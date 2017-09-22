@@ -30,6 +30,18 @@ As you see, this requires you to change your way of working a bit. But you will 
 
 If you want to perform the aforementionned quick operations that Unity allows, Uplift might be in the way and you might break it. Don't worry, if you version your code, you should be able to recover easily. And in the future, Uplift will contain features to detect and prevent you from doing things you shouldn't be doing.
 
+Basic Uplift Flow
+-----------------
+
+To reiterate, here's the basic uplift flow:
+
+* You add/modify your dependencies
+* You ask uplift to install them. Uplift installs them and tracks the assets they contain (thanks to their `GUIDs<../unity/guids>`)
+* **You do not touch, move, erase the assets that uplift installed**
+
+Good to go!
+-----------
+
 Uplift is there to lift you and your Unity Packages up. Learn how to use it. Learn to follow its flow.
 
 If you understand that, you are now ready to learn more about uplift and try uplift on a project.

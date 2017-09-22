@@ -6,7 +6,19 @@ For various reasons, you might end up having GUID issues in your project while u
 Why GUIDs are fragile?
 ----------------------
 
-If you don't track them, or lose them, Unity will most probably generate a different ID for the same dependency.
+If you don't track GUIDs, or lose them, Unity will generate a new one and most probably it will generate a different ID for the same asset.
+
+Another breakage can happen if you reuse an asset to do something else.
+
+Let's say you installed a module that came with some examples. You decided you didn't need the examples but prefered to create a feature out of them. After all they might be almost what you need!
+
+To get started you moved out the Examples files into a different area, and started modifying the examples to do what you do.
+
+**Wrong!**
+
+Both Unity and Uplift expects a GUID to be attached to a specific asset. Your new asset is still seen conceptually as the original example code.
+
+If you upgrade your package using Unity, it will try to get the newer version of the Example asset onto your working code. If you ask Uplift to nuke or upgrade you asset, the same conflict will happen.
 
 How to detect and correct issues?
 ---------------------------------
