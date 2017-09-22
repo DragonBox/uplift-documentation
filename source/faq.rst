@@ -65,5 +65,7 @@ This behavior is originating from Unity itself! If you try importing a ``.unityp
 Fortunately you shouldn't: the meta files for folders are currently mostly irrelevant and them being modified will have a minimal impact on your project.
 If they become relevant at some point, Unity will probably make sure that this behavior is modified and you will not have an issue in that case!
 
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
 .. [#u3d] ``u3d`` is a tool that we use that helps with: maintaining multiple unity version,
           automate installation and runs the proper Unity instance for your project
