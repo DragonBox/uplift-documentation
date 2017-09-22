@@ -1,5 +1,5 @@
-Uplifting packages
-==================
+Uplift packages
+===============
 
 I.e. preparing Uplift packages.
 

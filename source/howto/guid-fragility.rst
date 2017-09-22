@@ -1,4 +1,4 @@
-Finding and Resolving GUID Issues
+Find and Resolve GUID Issues
 =================================
 
 For various reasons, you might end up having GUID issues in your project while using Uplift. Let's see some of these scenarios.

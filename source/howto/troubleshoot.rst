@@ -1,5 +1,5 @@
-Troubleshooting
-===============
+Troubleshoot issues
+===================
 
 If something is wrong:
 

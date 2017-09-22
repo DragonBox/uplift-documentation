@@ -1,5 +1,5 @@
-Using Version Control With Uplift
-=================================
+Use Version Control With Uplift
+===============================
 
 Uplift is a work in progress, so not all has been tested in that area.
 

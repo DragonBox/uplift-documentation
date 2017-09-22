@@ -1,5 +1,5 @@
-Working on Two Projects
-=======================
+Work on Two Projects Simultaneously
+===================================
 
 .. TODO: Think about caveats of using links
    There might be some problems with using links, for example when committing them to Git.

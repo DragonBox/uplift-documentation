@@ -1,4 +1,4 @@
-Dealing with multiple Unity versions
+Deal with multiple Unity versions
 ====================================
 
 As for now, there are no strict guidelines as for which Unity versions and which are not.

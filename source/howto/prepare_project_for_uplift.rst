@@ -1,4 +1,4 @@
-Preparing a project for Uplift usage
+Prepare a project for Uplift usage
 ====================================
 
 The following recommendations are very good to follow if you use Unity, even without **Uplift**. Not following them would make it **impossible** to use Uplift effectively.
