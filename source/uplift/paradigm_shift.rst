@@ -31,15 +31,15 @@ If you want to perform the aforementionned quick operations that Unity allows, U
 Basic Uplift Flow
 -----------------
 
-To reiterate, here's the basic uplift flow:
+To reiterate, here's the basic Uplift flow:
 
 * You add/modify your dependencies
 * You ask uplift to install them. Uplift installs them and tracks the assets they contain (thanks to their `GUIDs<../unity/guids>`)
-* **You do not touch, move, erase the assets that uplift installed**
+* **You do not touch, move, erase the assets that Uplift installed**
 
 Good to go!
 -----------
 
 Uplift is there to lift you and your Unity Packages up. Learn how to use it. Learn to follow its flow.
 
-If you understand that, you are now ready to learn more about uplift and try uplift on a project.
+If you understand that, you are now ready to learn more about Uplift and try Uplift on a project.
