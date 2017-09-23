@@ -10,8 +10,8 @@
 .. include:: kickstart_project.rst
 .. include:: use_uplift_features.rst
 .. include:: add_repository.rst
-.. include:: add_external_dependency.rst
-.. include:: add_internal_dependency.rst
+.. include:: add_local_repository.rst
+.. include:: add_dependency.rst
 .. include:: uplifting_packages.rst
 .. include:: update_uplift.rst
 .. include:: working_on_two_projects.rst

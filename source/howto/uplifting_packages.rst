@@ -65,3 +65,8 @@ same basename, for example:
 So once you have your ``.unitypackage`` package and ``Upset.xml`` file
 ready, just put them in your `../repository/file_repository` (which, actually is only
 a directory on your filesystem) and you're good to go.
+
+
+.. _testing_uplifted_packages:
+
+**Recommendation**: it is good to test your package before making it available to others. You might want to use a `local repository<add_local_repository>` to test it before placing it in a `shared repository<add_repository>`.

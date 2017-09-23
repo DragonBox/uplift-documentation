@@ -9,7 +9,7 @@ You want to use Uplift's power to add dependencies to your project? Adding *Upli
    directory in your project. Uplift currently depends on ``SharpCompress.dll`` and this dependency needs to be added as well in the same location.
    A unity package is available to ease the installation of both DLLs.
 
-   After installation, *Uplift* is going to generate ``Upfile.xml`` for you in the project root [#upfile_location]_.
+   After installation, *Uplift* is going to generate the ``Upfile.xml`` for you in the project root [#upfile_location]_.
 
 3. Once you've done this step you can `add your first repository <add_repository>` and start adding packages.
 

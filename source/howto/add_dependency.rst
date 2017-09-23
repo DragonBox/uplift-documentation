@@ -1,9 +1,9 @@
-.. _howto-add-external-dependency:
+.. _howto-add-dependency:
 
-Add External Dependency
-=======================
+Add Dependency
+==============
 
-**Note:** This guide assumes that Dependency you want to add to your Project had already been prepared as an Uplift package. If that's not true, you might have to uplift it yourself, see `uplifting_packages`.
+**Note:** This guide assumes that the Dependency you want to add to your Project had already been prepared as an Uplift package. If that's not true, you might have to `uplift it yourself <uplifting_packages>`.
 
 1. (Optional) Add repository at which package resides. See: `add_repository`
 2. `Open Upfile.xml <faq-upfile>`
