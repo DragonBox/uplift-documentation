@@ -24,7 +24,7 @@ Be careful with GUIDs. They are to be treated as part of your API. I.e. Don't mo
 Versioning of your modules
 --------------------------
 
-Use `Semantic Versioning_.  See `howto-package-versioning`.
+Use `Semantic Versioning`_.  See `howto-package-versioning`.
 
 Contents / size of your module
 ------------------------------
