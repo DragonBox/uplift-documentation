@@ -13,6 +13,7 @@ Contents:
 
    uplift/index
    howto/index
+   recommendations/index
    faq
    files/index
    other/caveats

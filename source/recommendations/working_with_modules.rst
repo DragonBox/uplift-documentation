@@ -1,5 +1,4 @@
-=======================
- Working with projects
-=======================
+Working with projects
+=====================
 
 TODO: Fill me
