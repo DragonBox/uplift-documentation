@@ -20,3 +20,4 @@
 .. include:: package_versioning.rst
 .. include:: guid-fragility.rst
 .. include:: version_control_with_uplift.rst
+.. include:: maintain_modules.rst

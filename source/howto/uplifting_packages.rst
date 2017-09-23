@@ -10,6 +10,7 @@ Sometimes, you might want to pack existing ``.unitypackage`` package, so that it
 Preparing an Uplift package is a 2 steps procedure:
 
 1. Create an ``Upset.xml`` file
+
 2. Put **properly packaged** UPackage in the Repository.
 
 As you noticed, the key phrase here is **properly packaged**, as every single :doc:`Repository <repository/types>` has their own type.
@@ -67,6 +68,12 @@ ready, just put them in your `../repository/file_repository` (which, actually is
 a directory on your filesystem) and you're good to go.
 
 
+Recommendations
+---------------
+
 .. _testing_uplifted_packages:
 
-**Recommendation**: it is good to test your package before making it available to others. You might want to use a `local repository<add_local_repository>` to test it before placing it in a `shared repository<add_repository>`.
+It is good to test your package before making it available to others. You might want to use a `local repository<add_local_repository>` to test it before placing it in a `shared repository<add_repository>`.
+
+
+Another good practice is to follow the tips on how to `maintain your module<maintain_modules>`.
