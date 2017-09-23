@@ -1,19 +1,17 @@
 Letting Uplift Manage Your Dependencies
 =======================================
 
-Before you go on, learn the rule #1 of letting **Uplift** a package manager with Unity.
+Before you go on, learn the rule #1 of letting **Uplift** be your Unity package manager.
 
-In the world of software development, Unity is a bit special.
-
-Without package manager, assets are often shared in source format and imported into your project as is. This has several benefits like
+In the world of software development, Unity is a bit special. Without package manager, assets are often shared in source format and imported into your project as is. This has several benefits like:
 
 * it allows you to modify / fix an imported asset in place
 
 * it allows you to let Unity upgrade APIs accross both your project and its imported dependencies
 
-* it remoevsthe need to prepare a per-platform compiled version of a package, in particular if your package makes uses of per platform defines, such as **UNITY_ANDROID** and the like.
+* it removes the need to prepare a per-platform compiled version of a package, in particular if your package makes uses of per platform defines, such as **UNITY_ANDROID** and the like.
 
-But the fact that these quick operations exist go again the idea of clean module separations. It also prevents you from fixing the issues in a single place, inside your module, where these change belong.
+But the fact that these quick operations exist go against the idea of clean module separations. It also can you make forget to fix the issues in a single place, inside your module, where these change belong.
 
 A Paradigm Shift
 ----------------
