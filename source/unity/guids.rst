@@ -25,6 +25,13 @@ Unity creates a GUID at asset import time, when the asset you are importing does
 
 This means that if you forget to commit a meta file to your project, your colleague's Unity will generate a different meta, and thus a different GUID. This will confuse Uplift as Uplift tries to track those files for you (in the `upbring<../files/upbring>` file).
 
+Meta for Directories
+--------------------
+
+Not all `.unitypackages` contain the directories or associated metas that contain the assets. Some just have the assets themselves. For those packages Unity will create new metas at import.
+
+Note: we are looking into this to understand this inconsistency. (UP-110)
+
 How Unity manages them?
 -----------------------
 
