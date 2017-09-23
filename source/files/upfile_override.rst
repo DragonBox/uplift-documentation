@@ -7,13 +7,13 @@ over external service (See: `../howto/add_internal_dependency`).
 
 Sample looks as follows::
 
-.. code-block:: xml
+	.. code-block:: xml
 
-   <UpfileOverride>
-     <Repositories>
-       <FileRepository Path="Path/To/Another/Repository"/>
-     </Repositories>
-   </UpfileOverride>
+        <UpfileOverride>
+            <Repositories>
+                <FileRepository Path="Path/To/Another/Repository"/>
+            </Repositories>
+        </UpfileOverride>
 
 
 ``Repositories`` node are merged with the ``Repositories`` node in the *Project*'s ``Upfile.xml``.

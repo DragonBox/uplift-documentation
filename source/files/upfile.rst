@@ -145,5 +145,5 @@ This is where you describe what are the dependencies of your project. Every time
 
 .. note::
 
-    See also **TODO** Version requirements
+    See also `version_requirements`
     See also :ref:`files-general`

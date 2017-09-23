@@ -50,6 +50,8 @@ Most of the time you will prefer a more flexible requirement so that uplift will
 
 If the module you depend upon follow Semantic Versioning, then you can most probably use a version range similar to "major.*".
 
+For more details about versioning, see `../files/version_requirements`
+
 Futher reading
 --------------
 
