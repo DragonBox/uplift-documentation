@@ -1,5 +1,5 @@
-Maintain modules
-================
+Maintaining modules
+===================
 
 Altough a bit out of scope of Uplift itself, here are some tips to follow when maintaining your modules. This is important as you will be making them available through Uplift:
 
