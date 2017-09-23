@@ -6,7 +6,6 @@
    :local:
    :depth: 1
 
-.. include:: uplift.rst
 .. include:: upfile.rst
 .. include:: upset.rst
 .. include:: upbring.rst
