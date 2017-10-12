@@ -8,3 +8,4 @@
 
 .. include:: working_with_modules.rst
 .. include:: maintain_modules.rst
+.. include:: switching_source_dll.rst
