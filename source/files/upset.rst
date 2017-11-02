@@ -1,4 +1,4 @@
-Upset File Overview
+Upset overview
 ===================
 
 The Upset file is the main package will have to deal with if you are a package creator/maintainer.
