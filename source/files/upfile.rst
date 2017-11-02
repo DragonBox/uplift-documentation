@@ -126,7 +126,7 @@ This section will let you specify how Uplift should import your dependencies, mo
 
 .. note::
 
-    See also **TODO** Configuration types
+    See also :ref:`configuration_type`
 
 
 **Dependencies**
