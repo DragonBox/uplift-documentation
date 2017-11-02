@@ -11,6 +11,14 @@ Where is my ``Upfile.xml`` file?
 it isn't located under ``Assets/`` directory, you won't be able to see
 it in Unity.
 
+What is this ``Upfile.lock`` file?
+==================================
+
+If you install packages with Uplift you will probably notice that it generates a file called
+``Upfile.lock`` at the root of your project. This file is quite important as it allows you to easily
+work in a team and have as few dependency conflicts as possible. See `../files/lockfile` for more
+information.
+
 
 Where is my ``.Upfile.xml`` file?
 =================================
