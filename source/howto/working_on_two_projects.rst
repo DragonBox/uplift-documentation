@@ -1,11 +1,11 @@
-Work on Two Projects Simultaneously
+Work on two Projects Simultaneously
 ===================================
 
 .. TODO: Think about caveats of using links
    There might be some problems with using links, for example when committing them to Git.
 
-When working with *Uplift*, one common scenario would be working with both *Module* and *Project* at
-same time, as it's much easier to see the result without separation.
+When working with *Uplift*, one common scenario would be working with both a *Module* and a 
+*Project* at the same time, as it's much easier to see the result without separation.
 
 As for time being, *Uplift* doesn't support you with this out-of-the-box, but there are work-arounds.
 

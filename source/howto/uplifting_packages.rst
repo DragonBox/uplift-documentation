@@ -11,14 +11,14 @@ Preparing an Uplift package is a 2 steps procedure:
 
 1. Create an ``Upset.xml`` file
 
-2. Put **properly packaged** UPackage in the Repository.
+2. Put the **properly packaged** UPackage in the Repository.
 
 As you noticed, the key phrase here is **properly packaged**, as every single :doc:`Repository <repository/types>` has their own type.
 For the sake of simplicty we're going to assume `../repository/file_repository`.
 
 -------
 
-Creating ``Upset.xml`` is easy. As a minimal example:
+Creating an ``Upset.xml`` is easy. As a minimal example:
 
 .. code-block:: xml
 
@@ -76,4 +76,4 @@ Recommendations
 It is good to test your package before making it available to others. You might want to use a `local repository<add_local_repository>` to test it before placing it in a `shared repository<add_repository>`.
 
 
-Another good practice is to follow the tips on how to `maintain your module<maintain_modules>`.
+Another good practice is to follow the tips on how to `maintain your module<recommendation-maintain-module>`.

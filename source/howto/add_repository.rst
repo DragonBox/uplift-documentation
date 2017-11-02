@@ -1,4 +1,4 @@
-Add Repository To Your Project
+Add a Repository To Your Project
 ======================================
 
 1. Open ``Upfile.xml``

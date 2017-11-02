@@ -1,3 +1,4 @@
+.. _recommendation-maintain-module:
 Maintaining modules
 ===================
 

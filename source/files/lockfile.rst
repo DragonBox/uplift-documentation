@@ -8,10 +8,8 @@ Its main role is to keep track of the state of the dependencies of your project 
 project life cycle. It does so in a way that is readable by a human being so you can easily
 understand what is going on.
 
-    .. note::
-    
-    The lockfile is generated right after the dependency tree is solved, and just before the actual
-    installation of the packages.
+    .. note:: The lockfile is generated right after the dependency tree is solved, and just before
+    the actual installation of the packages.
     
 
 A standard lockfile could look like this:

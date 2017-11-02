@@ -5,7 +5,7 @@ Update Uplift
 
 Method of updating *Uplift* is dependent on how you have it installed.
 
-**If you have it installed as a binary package**, just replace old ``Uplift.dll`` with the new one,
+**If you have it installed as a binary package**, just replace the old ``Uplift.dll`` with the new one,
 restart Unity 3D and you're good to go.
 
 .. warning::

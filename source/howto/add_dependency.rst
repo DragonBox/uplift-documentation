@@ -1,6 +1,6 @@
 .. _howto-add-dependency:
 
-Add Dependency
+Add a Dependency
 ==============
 
 **Note:** This guide assumes that the Dependency you want to add to your Project had already been prepared as an Uplift package. If that's not true, you might have to `uplift it yourself <uplifting_packages>`.
