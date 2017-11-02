@@ -1,5 +1,5 @@
-.Upfile.xml, Your Local Upfile
-==============================
+Local Upfile overview (.Upfile.xml)
+===================================
 
 ``.Upfile.xml`` (note the dot!) is a global file in your system, which you can use to add custom
 repositories. It's especially handy, when you want to use `../repository/file_repository` that you synchronize

@@ -1,4 +1,4 @@
-Upfile File Overview
+Upfile overview
 ====================
 
 The Upfile is maybe the most important file in your project as it describes exactly how Uplift will behave. As a package user this will be the only file you will have to deal with.

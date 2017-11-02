@@ -1,4 +1,4 @@
-Upbring File overview
+Upbring overview
 =====================
 
 .. TODO: Document Upbring.xml file fully
