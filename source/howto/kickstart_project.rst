@@ -1,5 +1,5 @@
 Kickstart a new project
-=====================
+=======================
 
 You want to use Uplift's power to add dependencies to your project? Adding *Uplift* to a new project is simple!
 

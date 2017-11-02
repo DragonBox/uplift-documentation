@@ -13,7 +13,7 @@ Preparing an Uplift package is a 2 steps procedure:
 
 2. Put the **properly packaged** UPackage in the Repository.
 
-As you noticed, the key phrase here is **properly packaged**, as every single :doc:`Repository <repository/types>` has their own type.
+As you noticed, the key phrase here is **properly packaged**, as every single `Repository <repository-supported>` has their own type.
 For the sake of simplicty we're going to assume `../repository/file_repository`.
 
 -------

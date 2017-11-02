@@ -1,5 +1,5 @@
 Add a Local Repository
-====================
+======================
 
 If a repository has a machine specific path, we call it a *local repository*.
 

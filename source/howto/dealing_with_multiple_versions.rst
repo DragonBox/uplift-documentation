@@ -7,7 +7,7 @@ The ``.unitypackage`` generated from Unity 4, are, however not supported at all.
 
 If you want your package to work with multiple Unity versions you can either:
 
-a) Make sure that your package works for every version you want to support (and provide minimal requirement in `../files/upset`). Use `Unity Preprocessor Directives` whenever needed.
+a) Make sure that your package works for every version you want to support (and provide minimal requirement in `../files/upset`). Use `Unity Preprocessor Directives`_ whenever needed.
 
 b) Provide multiple versions for different Unity versions, for example:
    - ``MyPackage`` supports Unity 5+
@@ -20,4 +20,4 @@ b) Provide multiple versions for different Unity versions, for example:
 
    At some point we might enforce specific Unity versions, this will be noted both in release notes and *Uplift* itself.
 
-_Unity Preprocessor Directives: https://docs.unity3d.com/Manual/PlatformDependentCompilation.html
+.. _Unity Preprocessor Directives: https://docs.unity3d.com/Manual/PlatformDependentCompilation.html
