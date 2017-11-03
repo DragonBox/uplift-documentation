@@ -19,4 +19,3 @@
 .. include:: dealing_with_multiple_versions.rst
 .. include:: package_versioning.rst
 .. include:: guid_fragility.rst
-.. include:: version_control_with_uplift.rst
