@@ -49,4 +49,4 @@ Uplift uses GUIDs to track the assets it imports. This is primarily done to ensu
 GUID fragility
 --------------
 
-Sometimes you will run into issues with GUIDs. See `../howto/guid-fragility`.
+Sometimes you will run into issues with GUIDs. See `../howto/guid_fragility`.

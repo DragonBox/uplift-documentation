@@ -45,7 +45,7 @@ you need to have :menuselection:`Edit --> Preferences --> General --> Load previ
 Why can't I reuse code that Uplift Installed?
 =============================================
 
-See `howto/guid-fragility`
+See `howto/guid_fragility`
 
 .. _faq-filesystem-linking:
 
