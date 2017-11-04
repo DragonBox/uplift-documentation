@@ -3,7 +3,7 @@ Local Upfile overview (.Upfile.xml)
 
 ``.Upfile.xml`` (note the dot!) is a global file in your system, which you can use to add custom
 repositories. It's especially handy, when you want to use `../repository/file_repository` that you synchronize
-over external service (See: `../howto/add_internal_dependency`).
+over external service (See: `../howto/add_local_repository`).
 
 Sample looks as follows::
 
