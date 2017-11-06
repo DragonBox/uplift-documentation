@@ -1,7 +1,7 @@
 .. _version_control:
 
 Uplift and version control
-=========================
+==========================
 
 Uplift has been designed with the objective of being used in projects that are on version control,
 and therefore we have a strong position on this subject. Our view on this is that your version

@@ -34,8 +34,8 @@ reusable module, that you are going to use when developing next game.
 5. Open extracted module in Unity to verify that the module doesn't have not-found dependencies
 
    To make sure that you haven't missed anything it's for the best to create new project and put
-newly exported ``.unitypackage`` inside. That way you can confirm if everything went fine before
-`uplifting <uplifting_packages>`.
+   newly exported ``.unitypackage`` inside. That way you can confirm if everything went fine before
+   `uplifting <uplifting_packages>`.
 
 6. `Create Upset.xml file<../files/upset>`
 7. `publish_package`
