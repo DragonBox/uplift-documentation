@@ -33,6 +33,12 @@ Standard unitypackages need to be completed with an *Upset* file in order for Up
 work with them. Uplift needs extra information such as name, version, license, dependencies, license
 to do its work. See `../files/upset` for more information about the Upset file.
 
+Why are some items greyed out in the Uplift menu?
+=================================================
+
+Some features are considered experimental, and not completly stable and are therefore disabled by default.
+If you want to take the responsibility to try them out you can enable them, please see :ref:`enable_experimental_features`
+
 .. _faq-unity-instances:
 
 How to run multiple instances of Unity?
