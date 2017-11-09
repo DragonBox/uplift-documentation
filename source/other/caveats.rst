@@ -19,12 +19,16 @@ When using source code:
 - If you have any unfulfilled dependencies *Uplift* won't be runnable/reachable from menu
 - Unless you take care of the staging, Unity will be pre-compiled every time with your software.
 
-Version control cautioness
-==========================
+Version control and package tracking
+====================================
 
-If you use source control, you will have to be sure that you are aware of the potential caveats of
-Uplift. Because it does not keep your installed packages in version control (see
-:ref:`version_control`), you may face situations where you feel like something is broken.
+When using source control, Uplift does its best effort to hide the installed packages from your
+source control (see :ref:`version_control`).
+
+Yet, if you do operations on the file system level, such as switching branch while Uplift isn't
+running, you might end up in a situation where your source control sees the package files you do not
+want to check in. To avoid that, you would have to let Uplift update your project source control
+again.
 
 Let's take a look at a practical example using Git:
 
@@ -33,7 +37,7 @@ Let's take a look at a practical example using Git:
 - I update my package to version ```1.3.0`` on branch ``update_MyCoolPackage``
 - I close Unity if it was open
 - I checkout ``master``
-- In this specific scenario, it can look like there is an issue, because if I run ``git status``, ``Assets/UPackages`` is mark as untracked (or whatever install destination).
+- In this specific scenario, it can look like there is an issue, because if I run ``git status``, ``Assets/UPackages`` (or whatever install destination) is marked as untracked, as it will contain ``Assets/UPackages/MyCoolPackage~1.3.0``.
 
 What is the issue there? Because we ignore files from version control, git (or your version control
 software) does not handle your packages. Therefore, it doesn't know how to deal with them when
