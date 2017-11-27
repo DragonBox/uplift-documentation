@@ -16,6 +16,7 @@ Contents:
    recommendations/index
    faq
    files/index
+   repository/supported_repositories
    other/caveats
    copyright
 

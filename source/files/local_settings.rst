@@ -13,16 +13,16 @@ The default location for the settings file is ``$HOME/.uplift/settings.xml``, fo
 
 Sample ``settings.xml`` looks as follows:
 
-	.. code-block:: xml
+  .. code-block:: xml
 
-        <UpliftSettings>
-            <Repositories>
-                <!-- Some Repositories -->
-            </Repositories>
-            <AuthenticationMethods>
-                <!-- Some authentication -->
-            </AuthenticationMethods>
-        </UpliftSettings>
+    <UpliftSettings>
+        <Repositories>
+            <!-- Some Repositories -->
+        </Repositories>
+        <AuthenticationMethods>
+            <!-- Some authentication -->
+        </AuthenticationMethods>
+    </UpliftSettings>
 
 .. _settings_local_repository:
 
@@ -59,9 +59,9 @@ your credentials for your repositories and uses them to access your repositories
 
 To add an authentication method, you can simply do:
 
-	.. code-block:: xml
+  .. code-block:: xml
 
-        <AuthenticationMethods>
-            <RepositoryToken Repository="someUrl" Token="myToken" />
-        </AuthenticationMethods>
+    <AuthenticationMethods>
+        <RepositoryToken Repository="someUrl" Token="myToken" />
+    </AuthenticationMethods>
 
