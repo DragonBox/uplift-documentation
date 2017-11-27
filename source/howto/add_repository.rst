@@ -1,3 +1,5 @@
+.. _faq_add_repository:
+
 Add a Repository To Your Project
 ======================================
 

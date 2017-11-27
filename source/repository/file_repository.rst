@@ -40,11 +40,11 @@ to use Google Drive, Dropbox or such to store your packages and then fetch your 
 local synchronized directories, and therefore use Uplift's FileRepository accross your team. We
 provide you with workarounds so that you can use them despite this limitation.
 
-1. Declare them locally. In the ``.Upfile.xml`` at your HOME, you can specify additional repositories which will be "added" to your project repositories. In there you can specify absolute paths without having to worry about team compatibility.
+1. Declare them locally. In the ``settings.xml`` you can specify additional repositories which will be "added" to your project repositories. In there you can specify absolute paths without having to worry about team compatibility.
 
 .. note:: 
 
-    See also `../files/upfile_override`
+    See also `../files/local_settings`
 
 2. Use relative paths. Relative paths are not machine-specific and can be used without having to worry about team compatibility. You may chose to structure your project this way:
 

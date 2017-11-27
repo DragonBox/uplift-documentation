@@ -22,7 +22,7 @@ Uplift paths are most often relative:
 
 	<Install xsi:type="InstallSpecPath" Type="Root" Path="UPackages/wwtk.persistence~1.0.0" />
 
-**.Upfile.xml**
+**settings.xml**
 
     .. code-block:: xml
 
@@ -30,7 +30,7 @@ Uplift paths are most often relative:
 
 In some places, you will need an absolute path. In this case you might need to make the path like this:
 
-**.Upfile.xml**
+**settings.xml**
 
     .. code-block:: xml
 

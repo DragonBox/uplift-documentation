@@ -20,11 +20,11 @@ work in a team and have as few dependency conflicts as possible. See `../files/l
 information.
 
 
-Where is my ``.Upfile.xml`` file?
+Where is my ``settings.xml`` file?
 =================================
 
-Your ``.Upfile.xml`` override file is located in Home directory (that is the directory pointed to by
-the *HOME* environment variable).
+Your ``settings.xml`` file is located in a directory ``.uplift`` under your Home directory (that is
+the directory pointed to by the *HOME* environment variable).
 
 Why can't Uplift use out of box unity packages?
 ===============================================
