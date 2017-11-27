@@ -3,4 +3,5 @@
 Supported Repositories Types
 ============================
 
-* `*FileRepository* <file_repository>`
+* `FileRepository <file_repository>`
+* `GithubRepository <github_repository>`
