@@ -28,7 +28,7 @@ This means that if you forget to commit a meta file to your project, your collea
 Meta for Directories
 --------------------
 
-Not all `.unitypackages` contain the directories or associated metas that contain the assets. Some just have the assets themselves. For those packages Unity will create new metas at import.
+Not all ``.unitypackages`` contain the directories or associated metas that contain the assets. Some just have the assets themselves. For those packages Unity will create new metas at import.
 
 Note: we are looking into this to understand this inconsistency. (UP-110)
 

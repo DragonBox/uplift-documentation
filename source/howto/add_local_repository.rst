@@ -7,7 +7,7 @@ your project ``Upfile.xml`` by adding a File Repository line.
 
 .. note::
 
-    See also: `../files/local_settings`
+    See also: :ref:`settings_local_repository`
 
 .. note::
 

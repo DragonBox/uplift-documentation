@@ -5,7 +5,7 @@ Publish Package
 packages it only needs two things:
 
 - Asset files (code, images, anything that you want to be in your project)
-- `./files/upset`
+- `../files/upset`
 
 You might wonder how to pack those things together and the answer for this is, that depends on
 `used repository type <../repository/supported_repositories>`.

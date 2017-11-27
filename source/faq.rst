@@ -21,7 +21,7 @@ information.
 
 
 Where is my ``settings.xml`` file?
-=================================
+==================================
 
 Your ``settings.xml`` file is located in a directory ``.uplift`` under your Home directory (that is
 the directory pointed to by the *HOME* environment variable).
