@@ -1,7 +1,7 @@
 License & Copyright & Authors
 =============================
 
-Current Uplift Copyright is "2017 WeWantToKnow AS"
+Current Uplift Copyright is "2017-2018 WeWantToKnow AS"
 
 Current Uplift license is "MIT"
 
